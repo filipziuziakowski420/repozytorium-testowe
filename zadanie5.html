@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Zelki</title>
+        <meta charset="utf-8">
+        <script>
+            function zamow(){
+                var a =
+                document.getElementById("nr").value;
+                if(a == 1){
+                    document.getElementById("wynik").innerHTML="wybrany kształt to żabka";
+                 }
+                    
+                    
+                    
+                    document.getElementById("wynik").unne rHTML="Wybrany kształt to serce";
+                
+                else if(a == ){
+                    
+                }
+            }
+        </script>
+    </head>
+    <body>
+    podaj numer kształtu<br>
+       <input type="number" value="" id="nr"><br>
+        skomponuj swój kolor, podaj RGB:<br>
+        R:<input type="number" value="" id="r"><br>
+        G:<input type="number" value="" id="g"><br>
+        B:<input type="number" value="" id="b"><br>
+        <input type="button" value="Zamów" onclick="zamow()">
+        <p id="wynik">Wybrany kształt</p>
+        <input type="button" value="wybrany kolor" onclick="kolor()">
+
+    </body>
+</html>
